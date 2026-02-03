@@ -1,1 +1,5 @@
 print("Hello, World!")
+print("HI")
+print("heyyyy???")
+print("why u ignoring me world")
+print("ahh we should make an input functions")
