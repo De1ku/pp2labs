@@ -1,0 +1,8 @@
+print(bool("Hello"))
+print(bool(15))
+print(bool([1,2]))
+print(bool([]))
+print(bool(1.7))
+print(bool(None))
+print(bool(0))
+print(bool(""))
