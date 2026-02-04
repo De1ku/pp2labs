@@ -26,7 +26,7 @@ found = False
 for a in range(1, 5):
     for b in range(1, 5):
         if a * b == 6:
-            print("Pair:", a, b)
+            print("Пара чисел:", a, b)
             found = True
             break
     if found:

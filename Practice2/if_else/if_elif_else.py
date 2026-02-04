@@ -1,15 +1,17 @@
+# сравнение
 a = int(input())
 b = int(input())
 
 print(f"a = {a} ; b = {b}")
 
-if a>b:
+if a > b:
     print("a>b")
-elif b>a:
+elif b > a:
     print("b>a")
 else:
     print("a = b")
 
+#Оценка
 score = 78
 
 if (score >= 90):
@@ -21,6 +23,7 @@ elif (score >= 60):
 else:
     print("F")
 
+#доступ по возрасту
 age = 16
 
 if (age >= 18):
@@ -32,6 +35,8 @@ elif (age >= 16):
 else:
     print("Доступ запрещен")
 
+
+#что надеть по температуре
 temp = 5
 if (temp >= 25):
     print("Футболка")
@@ -46,6 +51,7 @@ else:
     print("Очень тепло одеться (ШАПКА!!!)")
 
 
+ # "авторизация"
 credentials = {"admin": 1234}
 login = "admin"
 password = "1234"

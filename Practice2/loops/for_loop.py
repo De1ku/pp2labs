@@ -1,5 +1,5 @@
 colors = ["red", "green", "blue"]
-for c in colors:
+for c in colors: #перебор и вывод массива
     print(c)
 
 
@@ -17,11 +17,11 @@ print(s)
 
 
 word = "hello"
-for ch in word:
+for ch in word: #вывод посимвольно
     print(ch)
 
 
 
 scores = {"Ann": 5, "Bob": 3}
-for name, score in scores.items():
+for name, score in scores.items(): #перебор и вывод
     print(name, score)

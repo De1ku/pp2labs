@@ -1,3 +1,4 @@
+#авторизован ли
 is_logged_in = True
 
 if is_logged_in:
@@ -5,6 +6,7 @@ if is_logged_in:
 else:
     print("You need to log in")
 
+#четность / нечетность
 a = 16
 
 if (a%2 == 0):
@@ -12,6 +14,7 @@ if (a%2 == 0):
 else:
     print("a is odd")
 
+#минимальное из двух
 a = 10
 b = 3
 
@@ -20,6 +23,8 @@ if a<b:
 else:
     print(f"min: {b}")
 
+
+#доступ по возрасту
 age = 18
 
 if age >= 18:
@@ -28,6 +33,7 @@ else:
     print("You're not allowed")
 
 
+#0 или нет?
 why = 0
 
 if why:
