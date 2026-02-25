@@ -1,28 +1,31 @@
-def task_1(n: int):
+from typing import Iterator
+
+
+def task_1(n: int) -> Iterator[int]:
     for i in range(1, n+1):
         yield i**2
 
-def evens(n: int):
+def evens(n: int) -> Iterator[int]:
     for i in range(n+1):
         if i%2 == 0:
             yield i
         else:
             pass
 
-def task_2(n: int):
+def task_2(n: int) -> None:
     a = ",".join(str(i) for i in evens(n))
     print(a)
 
-def divisible_3_4(n: int):
+def divisible_3_4(n: int) -> Iterator[int]:
     for i in range(n+1):
         if i%3 == 0 and i%4 == 0:
             yield i
 
-def squares(a: int, b: int):
+def squares(a: int, b: int) -> Iterator[int]:
     for i in range(a, b+1):
         yield i**2
 
-def nums(n: int):
+def nums(n: int) -> Iterator[int]:
     for i in range(n, 0-1, -1):
         yield i
 

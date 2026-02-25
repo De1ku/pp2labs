@@ -1,11 +1,11 @@
 import json
 
 
-def safe_get(a, key, default=""):
+def safe_get(a, key, default="") -> str:
     b = a.get(key, default)
     return "" if b is None else str(b)
 
-def main():
+def main() -> None:
     with open("sample-data.json", 'r') as f:
         data = json.load(f)
 
