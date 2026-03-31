@@ -11,13 +11,13 @@ with open(file_path, "w", encoding="utf-8") as file:
     file.write("Second line\n")
     file.write("Third line\n")
 
-print(f"File created and written successfully: {file_path}")
+print(f"File created: {file_path}")
 
 with open(file_path, "a", encoding="utf-8") as file:
     file.write("Fourth line (appended)\n")
     file.write("Fifth line (appended)\n")
 
-print("New lines appended successfully.")
+print("New lines appended")
 
 print("\nCurrent file content:")
 with open(file_path, "r", encoding="utf-8") as file:
