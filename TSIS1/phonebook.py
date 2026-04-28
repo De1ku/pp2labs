@@ -8,11 +8,6 @@ from connect import connect, init_db
 BASE_DIR = Path(__file__).resolve().parent
 VALID_PHONE_TYPES = {"home", "work", "mobile"}
 
-
-def setup():
-    init_db()
-
-
 def parse_date(date_text: str):
     value = (date_text or "").strip()
     return value or None
@@ -389,7 +384,7 @@ def delete_contact():
 
 
 def menu():
-    setup()
+    init_db()
 
     while True:
         print("\n===== Extended PhoneBook =====")
